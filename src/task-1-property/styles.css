@@ -1,0 +1,12 @@
+.ObjProperty {
+  .check {
+    background-color: #7D4CDB;
+    border: solid 1px darkslategrey;
+    width: 100px;
+    height: 100px;
+  }
+
+  & li:global(.active) {
+    background-color: greenyellow;
+  }
+}
