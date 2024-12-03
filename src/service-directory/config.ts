@@ -19,15 +19,14 @@ export const tabsConfig: Array<TabType> = [
         id: 'schedule',
         title: 'Задание 1',
         task: '1. Описать функцию getObjProperty\n' +
-            '2. Нормализовать данные из getSchedule\n' +
-            '3. Отрисованный список должен быть равен отрисованному компоненту',
+            '2. Нормализовать данные из getSchedule',
         component: ObjProperty,
     },
     {
         id: 'todo',
         title: 'Задание 2',
         task: '1. Написать логику хранения и обработки списка задач list - Добавление/Удаление используя, локальное состояние\n' +
-            '2. Вывести список задач. Использовать компонент Task в src/task-1-to-do/Task/index.tsx',
+            '2. Вывести список задач. Использовать компонент Task в src/task-2-to-do/Task/index.tsx',
         component: Todo,
     },
     {
